@@ -55,6 +55,14 @@ hr{
     letter-spacing: 1.5px;
 }
 
+.logo:hover{
+    background: #39383a;
+}
+
+.logo:hover a{
+    color: #fff;
+}
+
 .header_title{
     color: #39383a;
     font-size: 16px;

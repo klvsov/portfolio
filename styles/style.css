@@ -107,8 +107,11 @@ header .contacts li:hover{
     transition: all .3s;
 }
 
-.works{
+header .about{
     margin-top: 30px;
+}
+
+.works{
     margin-bottom: 30px;
 }
 

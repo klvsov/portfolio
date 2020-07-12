@@ -181,6 +181,7 @@ header .about{
 }
 
 footer{
+	margin-top: 20px;
     padding: 20px;
     background: #39383a;
 }

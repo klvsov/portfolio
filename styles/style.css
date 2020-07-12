@@ -177,6 +177,15 @@ header .contacts li:hover{
     transition: all 1s;
 }
 
+footer{
+    padding: 20px;
+    background: #39383a;
+}
+
+footer p{
+    color: #fff;
+}
+
 @media (max-width:768px){
     .works .wrapper{
         flex-wrap: wrap;

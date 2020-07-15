@@ -13,6 +13,9 @@
     <title>VV Portfolio</title>
 </head>
 <body>
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
     <header>
         <div class="container">
             <div class="logo">
@@ -119,6 +122,15 @@
             <p>&copy;2020 - klvsov</p>
         </div>
     </footer>
+    <script>
+        window.addEventListener('load', function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 1000);
+        })
+    </script>
     <script src="https://spikmi.com/Widget?Id=3811"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="scripts/fm.revealator.jquery.min.js"></script>

@@ -255,7 +255,7 @@
     </main>
     <footer>
       <div class="container">
-        <p>&copy;2020 - klvsov</p>
+        <p>&copy;<span class="year"></span> - klvsov</p>
       </div>
     </footer>
     <script>
@@ -266,6 +266,12 @@
           document.body.classList.remove('loaded_hiding');
         }, 1000);
       });
+    </script>
+    <script>
+      window.addEventListener('load', () => {
+        const $year = document.querySelector('.year');
+        $year.textContent = new Date().getFullYear();
+      })
     </script>
     <script src="https://spikmi.com/Widget?Id=3811"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
